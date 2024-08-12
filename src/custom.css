@@ -1,0 +1,14 @@
+.custom-input {
+    background-color: rgba(0, 188, 212, 0.5);
+    opacity: 50%;
+    backdrop-filter: blur(200px);
+    /* Adjust the color and opacity as needed */
+    /* Ensure text color is not affected by opacity */
+}
+
+.custom-input::placeholder {
+    color: #000;
+    /* Keep placeholder text color solid */
+    opacity: 1;
+    /* Ensure placeholder opacity is fully opaque */
+}
